@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: colz
+    env: node
+    plan: starter
+    region: frankfurt
+    buildCommand: npm install && npm run build
+    startCommand: rsync -a public/ /data/public/ && npm start
+    healthCheckPath: /_health
+    autoDeploy: false
+    disk:
+      name: colz-data
+      mountPath: /data
+      sizeGB: 1
+    envVars:
+      - key: NODE_VERSION
+        value: ~18.15.0
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_FILENAME
+        value: /data/strapi.db
+      - key: JWT_SECRET
+        generateValue: true
+      - key: ADMIN_JWT_SECRET
+        generateValue: true
+      - key: APP_KEYS
+        generateValue: true
