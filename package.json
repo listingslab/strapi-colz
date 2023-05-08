@@ -1,11 +1,5 @@
 {
-  "name": "listingslab-goldlabel",
   "scripts": {
-    "start": "npm run s:g",
-    "st": "npm run s:s",
-    "s:s": "clear && cd colz && npm run develop",
-    "b:s": "clear && cd colz && npm run build",
-    "s:g": "clear && cd gatsby-template && npm run start",
-    "b:g": "clear && cd gatsby-template && npm run clean && npm run build"
+    "test": "echo LGTM && exit 1"
   }
 }
