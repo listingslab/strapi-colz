@@ -1,4 +1,4 @@
-name: 🧜 美人鱼 Auto QA
+name: 👼 天使  Automated Machine
 
 on: [pull_request]
 
@@ -7,7 +7,7 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    name: Automated Machine
+    name: Colz Continuous Integration
     runs-on: ubuntu-latest
 
     steps:
