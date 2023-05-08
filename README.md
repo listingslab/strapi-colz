@@ -1,10 +1,12 @@
 ## Colz
 
 > Strapi ready to deploy as a Render.com web service  
-Open Source Strapi App for deployment to [render.com](https://dashboard.render.com/)  
-[by Listingslab](https://listingslab.com/book/open-source)  
-Headless CMS to manage multiple Goldlabel Apps. Strapi runs in a node env. 
-It scales as big and fast as you need, but is not free to host
+Open Source Strapi App for deployment to [render.com](https://dashboard.render.com/)
+Headless CMS to manage multiple Goldlabel Apps.  
+Strapi runs in a node env. 
+It scales as big and fast as you need, but is not free to host  
+[by Listingslab](https://listingslab.com/book/open-source)
+
 
 #### Localisation
 

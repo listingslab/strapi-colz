@@ -1,5 +1,6 @@
 {
   "scripts": {
-    "test": "echo Looks Good To Me && exit 0"
+    "test": "echo Looks Good To Me && exit 0",
+    "build": "echo Yeh, fine. && exit 0"
   }
 }
