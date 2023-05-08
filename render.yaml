@@ -3,18 +3,17 @@ services:
     name: colz
     env: node
     plan: starter
-    region: frankfurt
     buildCommand: npm install && npm run build
     startCommand: rsync -a public/ /data/public/ && npm start
     healthCheckPath: /_health
     autoDeploy: false
     disk:
-      name: colz-data
+      name: strapi-data
       mountPath: /data
       sizeGB: 1
     envVars:
       - key: NODE_VERSION
-        value: ~18.15.0
+        value: ~16.13.0
       - key: NODE_ENV
         value: production
       - key: DATABASE_FILENAME
