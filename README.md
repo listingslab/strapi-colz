@@ -1,11 +1,12 @@
 ## Colz
 
 > Strapi ready to deploy as a Render.com web service  
-Open Source Strapi App for deployment to [render.com](https://dashboard.render.com/)
+Open Source Strapi App for deployment to 
+[render.com](https://dashboard.render.com/)
 Headless CMS to manage multiple Goldlabel Apps.  
 Strapi runs in a node env. 
-It scales as big and fast as you need, but is not free to host  
-[by Listingslab](https://listingslab.com/book/open-source)
+It scales as big and fast as you need, but is not free 
+
 
 # Deploy Strapi to Render
 
@@ -16,7 +17,6 @@ Fork this repo and click the button below to deploy.
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
 
 See the guide at https://render.com/docs/deploy-strapi for more information.
-
 
 #### Localisation
 
@@ -44,3 +44,6 @@ Because it might as well be in feckin Chinese, right?
 👉 看看这里  
 那 🤟 是 🤙 老 🤟 学 🧜‍♂️ 校 🤟
 🦹‍♀️ 超级反派女人
+
+
+[by Listingslab](https://listingslab.com/book/open-source)
