@@ -23,6 +23,19 @@
         }
       },
       "type": "string"
+    },
+    "hostname": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string"
+    },
+    "books": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::book.book"
     }
   }
 }
