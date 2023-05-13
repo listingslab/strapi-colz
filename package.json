@@ -1,5 +1,5 @@
 {
-  "name": "colz",
+  "name": "strapi-colz",
   "version": "4.10.5",
   "scripts": {
     "d": "npm run develop",
