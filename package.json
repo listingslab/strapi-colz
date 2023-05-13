@@ -1,6 +1,6 @@
 {
-  "name": "colz",
-  "version": "5.0.0",
+  "name": "strapi-colz",
+  "version": "4.10.5",
   "scripts": {
     "d": "npm run develop",
     "develop": "strapi develop",
@@ -11,9 +11,9 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "4.10.2",
-    "@strapi/strapi": "4.10.2",
-    "@strapi/plugin-users-permissions": "4.10.2",
+    "@strapi/plugin-i18n": "4.10.5",
+    "@strapi/strapi": "4.10.5",
+    "@strapi/plugin-users-permissions": "4.10.5",
     "sqlite3": "^5.0.2"
   },
   "strapi": {
