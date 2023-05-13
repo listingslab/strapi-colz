@@ -7,14 +7,14 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    name: Colz Continuous Integration
+    name: 是的，🤙 兄弟
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: 👉 看看这里
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
-      - name: Run test
+      - name: 天👼使
         run: npm test
