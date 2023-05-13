@@ -32,10 +32,18 @@
       },
       "type": "string"
     },
-    "documents": {
+    "docs": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::document.document"
+      "target": "api::doc.doc"
+    },
+    "keywords": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
