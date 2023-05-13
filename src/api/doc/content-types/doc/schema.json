@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "documents",
+  "collectionName": "docs",
   "info": {
-    "singularName": "document",
-    "pluralName": "documents",
-    "displayName": "Document",
+    "singularName": "doc",
+    "pluralName": "docs",
+    "displayName": "Doc",
     "description": ""
   },
   "options": {
@@ -43,26 +43,33 @@
     "slug": {
       "pluginOptions": {
         "i18n": {
-          "localized": false
+          "localized": true
         }
       },
       "type": "string"
     },
     "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
       ],
+      "type": "media",
+      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
       }
+    },
+    "keywords": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
