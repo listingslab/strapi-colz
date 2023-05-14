@@ -71,6 +71,11 @@
         }
       },
       "type": "string"
+    },
+    "links": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::link.link"
     }
   }
 }
