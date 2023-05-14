@@ -42,7 +42,8 @@
       "enum": [
         "link",
         "doc",
-        "book"
+        "book",
+        "github"
       ]
     },
     "url": {
