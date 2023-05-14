@@ -78,6 +78,22 @@
       "type": "string"
     },
     "appicon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "appimage": {
       "allowedTypes": [
         "images",
         "files",
