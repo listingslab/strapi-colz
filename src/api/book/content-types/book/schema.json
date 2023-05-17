@@ -53,7 +53,7 @@
       },
       "type": "string"
     },
-    "bookpic": {
+    "bookimage": {
       "allowedTypes": [
         "images",
         "files",
