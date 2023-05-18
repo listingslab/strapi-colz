@@ -32,11 +32,6 @@
       },
       "type": "string"
     },
-    "docs": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::doc.doc"
-    },
     "keywords": {
       "pluginOptions": {
         "i18n": {
@@ -52,21 +47,6 @@
         }
       },
       "type": "string"
-    },
-    "bookimage": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      }
     }
   }
 }
