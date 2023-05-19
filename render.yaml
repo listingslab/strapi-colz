@@ -2,7 +2,7 @@ services:
   - type: web
     name: strapi-colz
     env: node
-    plan: starter
+    plan: free
     region: frankfurt
     buildCommand: npm install && npm run build
     startCommand: rsync -a public/ /data/public/ && npm start
